@@ -2,15 +2,28 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header,
 footer {
     background-color: #1F2937
+}
+
+header {
+    padding: 0 150px;
 }
 
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: extra-bold;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
 }
 
 .header-logo {
@@ -20,7 +33,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px 0;
 }
 
 li {
@@ -39,12 +52,25 @@ ul {
 .hero {
    color: #e5e7eb;
    font-size: 18px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 90px 0;
+}
+
+.hero-content {
+    width: 420px;
 }
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
-    font-size: 18px; 
+    border-color: #3882f6;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 30px;
 }
 
 h2 {
