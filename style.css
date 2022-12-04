@@ -82,6 +82,20 @@ h2 {
 .information {
    font-size: 18px;
    color: #1F2937; 
+   text-align: center;
+   padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 300px 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-section {
