@@ -17,7 +17,10 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
 li {
@@ -25,6 +28,12 @@ li {
     font-weight: normal;
     color: #e5e7eb;
     list-style: none;
+    padding: 0 12px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
 }
 
 .hero {
