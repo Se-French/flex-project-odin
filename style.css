@@ -143,3 +143,12 @@ h3 {
     border-color: #e5e7eb; 
     padding: 5px 30px;
 }
+
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
