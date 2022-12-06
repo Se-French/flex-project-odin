@@ -99,6 +99,10 @@ h2 {
     flex-direction: column;
 }
 
+img {
+    border-radius: 12px;
+}
+
 .quote-section {
     background-color: #e5e7eb;
     color: #1f2937;
