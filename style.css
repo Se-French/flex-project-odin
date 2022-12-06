@@ -125,9 +125,21 @@ sub {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 175px;
+    padding: 30px 100px; 
+    border-radius: 12px;
 }
 
 h3 {
     font-size: 24px;
     font-weight: extra-bold;
+    margin-bottom: 0px;
+}
+
+.call-section button {
+    border-color: #e5e7eb; 
+    padding: 5px 30px;
 }
